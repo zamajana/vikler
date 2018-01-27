@@ -1,0 +1,214 @@
+body{
+margin:0px; 
+padding:0px; 
+background:#1f1f1f;
+color:#000000;
+font-family:"Trebuchet MS";
+}
+
+div, p, ul, h1, h2, img{
+margin:0px; 
+padding:0px;
+border:none;
+text-decoration:none;
+}
+
+#site_container{
+	width: 900px;
+	margin: 0 auto;
+}
+
+#red_top{
+	height:21px;
+	background:url(images/red_top.jpg);
+}
+
+#header{
+	height:91px;
+}
+
+#left_logo{
+	position:relative;
+	float:left;
+}
+
+#name{
+	position:relative;
+	float:left;
+	margin-top:10px;
+	margin-left: 85px;
+}
+
+#right_logo{
+	position:relative;
+	float:right;
+}
+
+#name p{
+	position:relative;
+	color:#FFFFFF;
+
+	margin-top: -15px;
+	margin-left: 5px;
+}
+
+#content{
+	margin-top:5px;
+	position:relative;
+	background:#f2f0dc;
+}
+
+#menu{
+	position:relative;
+	width:800px;
+	margin:0 auto;
+}
+
+#left_hold{
+	position:relative;
+	width:46px;
+	height:228px;
+	background:url(images/left_holder.jpg) 0 0 no-repeat;
+	float:left;
+	border-bottom: 1px solid #cdcaa3;
+}
+
+#middle{
+	position:relative;
+	width:708px;
+	margin:0 auto;
+}
+
+#menu_top{
+	position:relative;
+	height:32px; 
+	background:#FFFFFF;
+	border-bottom: 1px solid #cdcaa3;
+}
+
+#menu_top ul{
+	height:32px; 
+	background:#FFFFFF;
+	margin-left:50px;
+}
+
+#menu_top ul li{
+	position:relative;
+	float:left;
+	width:150px; 
+	height:32px; 
+	margin: 5px 0;
+	list-style:none;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+#menu_top ul li a{
+	border-right: 1px dashed #969260;
+	display:block;
+	text-decoration:none;
+	color:#000000;
+	background:#ffffff;
+}
+
+#menu_top ul li a:hover{
+	border:none;
+	text-decoration:none;
+	color:#FFFFFF;
+	background:#000000;
+}
+
+
+#menu_top .last a{
+	border:none;
+}
+
+#right_hold{
+	position:relative;
+	float:right;
+	width:46px;
+	height:228px;
+	background:url(images/right_holder.jpg) 0 0 no-repeat;
+	margin-top:-229px;
+	border-bottom: 1px solid #cdcaa3;
+}
+
+#cool_menu{
+	position:relative;
+	height:185px;
+	width:708px;
+	margin-top:9px;
+	background:#fefdf1;
+	border-top: 1px solid #cdcaa3;
+	border-bottom: 1px solid #cdcaa3;
+}
+
+#cool_menu ul{
+	position:relative;
+	margin-left:40px;
+}
+
+#cool_menu ul li{
+	position:relative;
+	float:left;
+	margin: 10px 15px 0 15px;
+}
+
+#delatnost a{
+	position:relative;
+	float:left;
+	height:180px;
+	width:178px;
+	display:block;
+	background:url(images/delatnost.png) no-repeat;
+}
+
+#delatnost a:hover{
+	position:relative;
+	float:left;
+	height:180px;
+	width:178px;
+	display:block;
+	background:url(images/delatnost2.png) no-repeat;
+}
+
+#onama a{
+	position:relative;
+	float:left;
+	height:180px;
+	width:178px;
+	display:block;
+	background:url(images/onama.png) no-repeat;
+}
+
+#onama a:hover{
+	position:relative;
+	float:left;
+	height:180px;
+	width:178px;
+	display:block;
+	background:url(images/onama2.png) no-repeat;
+}
+
+#kontakt a{
+	position:relative;
+	float:left;
+	height:180px;
+	width:178px;
+	display:block;
+	background:url(images/kontakt.png) no-repeat;
+}
+
+#kontakt a:hover{
+	position:relative;
+	float:left;
+	height:180px;
+	width:178px;
+	display:block;
+	background:url(images/kontakt2.png) no-repeat;
+}
+
+#main{
+	min-height:600px;
+}

@@ -1,0 +1,554 @@
+body{
+margin:0px; 
+padding:0px; 
+background:url(images/sajt_bg.jpg);
+color:#000000;
+font-family:"Trebuchet MS";
+}
+
+div, p, ul, h1, h2, img{
+margin:0px; 
+padding:0px;
+border:none;
+text-decoration:none;
+}
+
+a{
+	text-decoration:none;
+	color:#000;
+}
+
+a:hover{
+	text-decoration:none;
+	color:#cc0000;
+}
+
+#site_container{
+	width: 900px;
+	margin: 0 auto;
+}
+
+#red_top{
+	height:21px;
+	background:url(images/red_top.jpg);
+}
+
+#social{
+	float:right;
+	margin-top:20px;
+	margin-right:10px;
+}
+
+#fb{
+	float:left;
+	width:66px;
+	height:83px;
+}
+
+#fb a{
+	width:66px;
+	height:48px;
+	display:block;
+	background:url(images/fb_link.png) top center no-repeat;
+}
+
+#fb a:hover{
+	width:66px;
+	height:83px;
+	background:url(images/fb_hover.png) no-repeat;
+	display:block;
+}
+
+#twitter{
+	float:left;
+	width:48px;
+	height:60px;
+}
+
+#twitter a{
+	width:48px;
+	height:35px;
+	display:block;
+	background:url(images/twitter_link2.png) top center no-repeat;
+}
+
+#twitter a:hover{
+	width:48px;
+	height:60px;
+	background:url(images/twitter_hover2.png) no-repeat;
+	display:block;
+}
+
+#header{
+	height:100px;
+}
+
+#left_logo{
+	position:relative;
+	float:left;
+	margin-top:7px;
+	margin-left: 70px;
+}
+
+#name{
+	position:relative;
+	float:left;
+	margin-top:10px;
+	margin-left: 30px;
+}
+
+
+#name p{
+	position:relative;
+	color:#FFFFFF;
+	margin-top: -15px;
+	margin-left: 5px;
+}
+
+#content{
+	margin-top:5px;
+	position:relative;
+	background:#eaeae2;
+	border-bottom: 1px dashed #c1bfb0;
+}
+
+#menu{
+	position:relative;
+	width:800px;
+	margin:0 auto;
+}
+
+#left_hold{
+	position:relative;
+	width:46px;
+	height:153px;
+	background:url(images/left_holder.jpg) 0 0 no-repeat;
+	float:left;
+	border-bottom: 1px solid #c1bfb0;
+}
+
+#middle{
+	position:relative;
+	width:708px;
+	margin:0 auto;
+}
+
+#menu_top{
+	position:relative;
+	height:32px; 
+	background:#ffffff;
+	border-bottom: 1px solid #c1bfb0;
+}
+
+#menu_top ul{
+	height:32px; 
+	background:#ffffff;
+	margin-left:5px;
+}
+
+#menu_top ul li{
+	position:relative;
+	float:left;
+	width:140px; 
+	height:32px; 
+	margin: 5px 0;
+	list-style:none;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+#menu_top ul li a{
+	border-right: 1px dashed #969260;
+	display:block;
+	text-decoration:none;
+	color:#000000;
+	background:#ffffff;
+}
+
+#menu_top ul li a:hover{
+	border:none;
+	text-decoration:none;
+	color:#FFFFFF;
+	background:#343434;
+}
+
+
+#menu_top .last a{
+	border:none;
+}
+
+body#home a#home_link, body#delatnost a#delatnost_link, body#onama a#onama_link, body#izrada_softvera a#izrada_softvera_link, body#kontakt a#kontakt_link, body#galerija a#galerija_link {
+	border:none;
+	text-decoration:none;
+	color:#FFFFFF;
+	background:#343434;
+}
+
+#right_hold{
+	position:relative;
+	float:right;
+	width:46px;
+	height:153px;
+	background:url(images/right_holder.jpg) 0 0 no-repeat;
+	margin-top:-154px;
+	border-bottom: 1px solid #c1bfb0;
+}
+
+
+/* tabla */
+
+#cool_menu{
+	position:relative;
+	height:110px;
+	width:708px;
+	margin-top:9px;
+	background:#fbfaf5;
+	border-top: 1px solid #c1bfb0;
+	border-bottom: 1px solid #c1bfb0;
+}
+
+#cool_menu img{
+	position:relative;
+	float:left;
+	margin-left: 150px;
+	margin-top: 10px;
+}
+
+#cool_menu ul{
+	position:relative;
+	float:left;
+	margin-left:100px;
+}
+
+#cool_menu ul a{
+	color:#CC0000;
+	font-size:14px;
+}
+
+#cool_menu ul a:hover{
+	color:#000000;
+	font-size:14px;
+}
+
+#cool_menu ul a:active{
+	color:#000000;
+	font-size:14px;
+}
+
+#cool_menu ul li{
+	background:url(images/bullet.png) left no-repeat;
+	padding-left: 20px;
+	list-style:none;
+}
+
+
+#info{
+	margin-left:300px;
+	margin-top: 10px;
+}
+
+#info p{
+	margin:-2px;
+	font-size:12px;
+}
+
+#info p.tabb{
+	margin-left:43px;
+}
+
+/* kraj table */
+
+h1{
+	margin:40px 50px 17px;
+	text-align:left;
+	color:#cc0000;
+	font-size:22px;
+
+}
+
+h2{
+	text-align:left;
+	font-size: 18px;
+	margin-top:10px;
+	font-weight:normal;
+	padding-bottom: 10px;
+}
+
+h3{
+	text-align:left;
+	font-size: 14px;
+	margin-bottom:0px;
+	margin-top: 10px;
+	font-weight:normal;
+	color:#C00;
+	padding:0px;
+	padding-left: 10px;
+}
+
+#premotavanje h1, #servis h1, #racunari h1, #izrada_softvera h1, #galerija h1, #videonadzor h1, #alarmi h1{
+	text-align:center;
+}
+
+p{
+	text-align:justify;
+	font-size: 14px;
+	margin:5px 0;
+}
+
+#main ul{
+	text-align:left;
+	font-size: 14px;
+	margin:10px 0 15px 0;
+	list-style:none;
+}
+
+#main ul li{
+	background:url(images/dot.png) left top no-repeat;
+	padding-left:10px;
+}
+
+a.more{
+	font-size: 12px;
+	color: #cc0000;
+	text-decoration:none;
+}
+
+a.more:hover{
+	font-size: 12px;
+	color: #000;
+	text-decoration:none;
+}
+
+#programiranje a.more{
+	font-size:14px;
+	padding-left:5px;
+}
+
+.half_box{
+	border-bottom:1px dashed #c1bfb0;
+	padding-bottom: 10px;
+	margin: 0 50px 10px;
+	min-height: 125px;
+}
+
+#preporuka{
+	border:1px dashed #c1bfb0;
+	margin: 10px 50px 10px;
+}
+
+#preporuka p{
+	text-align:justify;
+	font-size: 12px;
+	margin:2px 5px;
+}
+
+.half_box img{
+	position:relative;
+	float:right;
+	padding:5px;
+	border: 1px dashed #c1bfb0;
+	margin: 0 0 10px 40px;
+	clear:both;
+}
+
+#programiranje .half_box img{
+	border: none;
+	margin: 0 auto;
+	padding: 0;
+	float:none;
+}
+
+#programi .last_box ul{
+	margin:0;
+	padding:0;
+}
+
+.last_box{
+	padding-bottom: 10px;
+	margin: 0 50px 10px;
+	min-height: 125px;
+}
+
+.last_box img{
+	position:relative;
+	float:right;
+	padding:5px;
+	border: 1px dashed #c1bfb0;
+	margin: 0 0 10px 40px;
+	clear:both;
+}
+
+#premotavanje .half_box img, #servis .half_box img{
+	position:relative;
+	float:left;
+	padding:5px;
+	border: 1px dashed #c1bfb0;
+	margin: 0 30px 10px 0;
+}
+
+
+#premotavanje .last_box img, #servis .last_box img{
+	position:relative;
+	float:left;
+	padding:5px;
+	border: 1px dashed #c1bfb0;
+	margin: 0 30px 10px 0;
+}
+
+#mapa_box{
+	position:relative;
+	width:220px;
+	height:200px;
+	border:1px dashed #c1bfb0;
+	padding: 10px;
+	float:right;
+	margin-right:50px;
+	margin-top: 100px;
+	margin-left: 40px;
+}
+
+#mapa_box h1{
+	margin:0 0 5px;
+}
+
+#mapa_box img{
+	float:right;
+	margin-right:10px;
+	margin-top:70px;
+}
+
+#tabla{
+	border: 1px solid #c1bfb0;
+	background: #fefdf1;
+	width:800px;
+	height:145px;
+	margin:0 auto 20px;
+	padding: 10px 0;
+}
+
+ul#galerija li {
+	position:relative;
+	float:left;
+	list-style:none;
+	margin: 0 13px;
+}
+
+#tabla p{
+	text-align:right;
+	padding-right:13px;
+}
+
+#footer{
+	position:relative;
+	height: 60px;
+	text-align:center;
+}
+
+
+#bottom_menu{
+	height:20px;
+	background:#eaeae2;
+}
+
+#footer ul{
+	margin-left: 270px;
+}
+
+#footer ul li{
+	position:relative;
+	float:left;
+	list-style:none;
+	border-right:1px dashed #c1bfb0;
+	margin: 2px 10px 2px 0;
+	padding-right: 10px;
+	font-size:12px;
+
+}
+
+#footer .last{
+	border:none;
+}
+
+#red_bottom{
+	height:21px;
+	background:url(images/red_bottom.jpg);
+}
+
+#red_bottom p{
+	text-align:center;
+	margin-top: 3px;
+	padding-top: 3px;
+	color:#000;
+	font-size:10px;
+}
+
+#red_bottom a{
+	text-decoration:underline;
+}
+
+#red_bottom a:hover{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+#premotavanje a#premotavanje_link, #servis a#servis_link, 
+#programiranje a#programi_link, #videonadzor a#videonadzor_link, #alarmi a#alarmi_link, #racunari a#racunari_link{
+	color:#000000;
+	font-size:14px;
+}
+
+a.all_link{
+	background:url(images/bullet.png) left no-repeat;
+	color:#CC0000;
+	padding-left:15px;
+	margin-left:10px;
+	font-weight:normal;
+	font-size:14px;
+}
+
+a.all_link:hover{
+	color:#000000;
+	font-weight:normal;
+	font-size:14px;
+}
+
+.red_text{
+	color:#CC0000;
+}
+
+#galerija ul#galerija_lista{
+	width:815px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+ul#galerija_lista li{
+	display:inline;
+	background:none;
+	padding:0;
+}
+
+ul#nadzor_lista, ul#alarmi_lista, ul#racunari_lista{
+	width:690px;
+	margin:0 auto;
+}
+
+ul#nadzor_lista li, ul#alarmi_lista li, ul#racunari_lista li{
+	float:left;
+	background:none;
+	padding-left:0px;
+	margin-left:10px;
+}
+
+ul#nadzor_lista li img, ul#alarmi_lista li img, ul#racunari_lista li img{
+	margin-left:0px;
+}
+
+#alarmi .half_box, #videonadzor .half_box, #racunari .half_box{
+	min-height:100px;
+}
+
+#alarmi .last_box, #videonadzor .last_box, #racunari .last_box{
+	margin-bottom:50px;
+}
